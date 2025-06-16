@@ -1,0 +1,54 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / JetBrains / other editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Game cache or build artifacts (if applicable)
+*.log
+*.bak
+*.tmp
+*.cache
+
+# Zero Sievert original game directory (DO NOT include actual game files!)
+/ZERO_Sievert/
+/SteamApps/
+/steamapps/
+
+# Git backup
+*.orig
+
+# Node/npm (if using tooling)
+node_modules/
+dist/
+
+# Python (if you're scripting something)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore backups or OS-generated files
+*.~*
+*.swp
+*.swm
+*.swo
+
+# Ignore archives and binaries
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.so
+*.bin
+*.tar
+
+# Ignore your custom test saves/configs if needed
+/saves/
+/config/
